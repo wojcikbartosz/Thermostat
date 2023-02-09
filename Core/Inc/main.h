@@ -75,6 +75,8 @@ void Error_Handler(void);
 #define TEMP_PLUS_Pin GPIO_PIN_15
 #define TEMP_PLUS_GPIO_Port GPIOB
 #define TEMP_PLUS_EXTI_IRQn EXTI15_10_IRQn
+#define OUTPUT_SIG_Pin GPIO_PIN_8
+#define OUTPUT_SIG_GPIO_Port GPIOC
 #define TMS_Pin GPIO_PIN_13
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14

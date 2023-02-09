@@ -94,10 +94,12 @@ void CheckHisteresis()//changes boiler state according to histeresis
 				  if(temp<=dest_temp_H-0.4f)
 				  {
 					  boiler_state = true;
+					  HAL_GPIO_WritePin(OUTPUT_SIG_GPIO_Port, OUTPUT_SIG_Pin, GPIO_PIN_SET);
 				  }
 				  else if(temp>=dest_temp_H+0.4f)
 				  {
 					  boiler_state = false;
+					  HAL_GPIO_WritePin(OUTPUT_SIG_GPIO_Port, OUTPUT_SIG_Pin, GPIO_PIN_RESET);
 				  }
 			  }
 			  else
@@ -105,10 +107,12 @@ void CheckHisteresis()//changes boiler state according to histeresis
 				  if(temp<=dest_temp_C-0.4f)
 				  	{
 				  		boiler_state = true;
+				  		HAL_GPIO_WritePin(OUTPUT_SIG_GPIO_Port, OUTPUT_SIG_Pin, GPIO_PIN_SET);
 				  	}
 				  	else if(temp>=dest_temp_C+0.4f)
 				  	{
 				  		boiler_state = false;
+				  		HAL_GPIO_WritePin(OUTPUT_SIG_GPIO_Port, OUTPUT_SIG_Pin, GPIO_PIN_RESET);
 				  	}
 			  }
 }
