@@ -1,0 +1,14 @@
+../Core/Src/main.c:90:6:CheckHisteresis	4	static
+../Core/Src/main.c:115:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:154:6:HAL_GPIO_EXTI_Callback	48	static
+../Core/Src/main.c:299:6:DisplayDay	8	static
+../Core/Src/main.c:304:6:DisplayDayInMenu	8	static
+../Core/Src/main.c:309:6:DisplayHourInMenu	8	static
+../Core/Src/main.c:317:6:DisplayModeInMenu	8	static
+../Core/Src/main.c:330:6:DisplayTime	8	static
+../Core/Src/main.c:352:6:DisplayCurrentTemp	16	static
+../Core/Src/main.c:361:6:DisplayBoilerState	8	static
+../Core/Src/main.c:374:6:DisplayWorkState	16	static
+../Core/Src/main.c:415:5:main	64	static
+../Core/Src/main.c:599:6:SystemClock_Config	96	static
+../Core/Src/main.c:660:6:Error_Handler	4	static,ignoring_inline_asm
